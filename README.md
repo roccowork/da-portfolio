@@ -23,4 +23,4 @@ Analyzed 100K+ orders from a Brazilian e-commerce platform to uncover customer s
 
 ## Contact
 - LinkedIn: [linkedin.com/in/xiaodong-liu](https://linkedin.com/in/xiaodong-liu)
-- Email: your-email@example.com
+- Email: liming20251120@gmail.com
