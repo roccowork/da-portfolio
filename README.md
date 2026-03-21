@@ -22,5 +22,5 @@ Analyzed 100K+ orders from a Brazilian e-commerce platform to uncover customer s
 - HackerRank Python (Basic)
 
 ## Contact
-- LinkedIn: [linkedin.com/in/xiaodong-liu](https://linkedin.com/in/xiaodong-liu)
+- LinkedIn: [linkedin.com/in/david-liu-analyst](https://linkedin.com/in/david-liu-analyst)
 - Email: liming20251120@gmail.com
