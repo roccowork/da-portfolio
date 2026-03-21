@@ -5,28 +5,32 @@ An interactive Power BI dashboard analyzing sales performance of a US retail sup
 
 ## Dataset
 - **Source:** [Kaggle - Superstore Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
-- **Records:** 9,994 orders
+- **Records:** 9,994 orders (5,009 unique)
 - **Fields:** Order Date, Ship Date, Segment, Country, City, State, Region, Category, Sub-Category, Sales, Quantity, Discount, Profit
 
 ## Dashboard Pages
 
 ### Page 1: Sales Overview
-- Total Sales, Total Profit, Total Orders, Profit Margin (KPI cards)
-- Sales & Profit trend by month (line chart)
-- Sales by Region (map or bar chart)
-- Sales by Category & Sub-Category (bar chart)
+- Total Sales ($2.30M), Total Profit ($286.40K), Total Orders (5,009), Profit Margin (12.47%) — KPI cards
+- Sales & Profit trend by year (line chart)
+- Sales by Region (donut chart — West 31.58%, East 29.55%, Central 21.82%, South 17.05%)
+- Sales by Category & Sub-Category (bar chart — Technology > Furniture > Office Supplies)
 
 ### Page 2: Profitability Analysis
-- Profit by State (filled map — identify loss-making states)
-- Discount vs Profit correlation (scatter plot)
-- Top 10 most profitable products
-- Bottom 10 least profitable products
+- Profit by State (bar chart — California & New York lead)
+- Discount vs Profit correlation (scatter plot — higher discount = lower profit)
+- Top 10 most profitable products (treemap)
+- Bottom 10 least profitable products (funnel chart — Cubify CubeX 3D Printer is biggest loss at -$8.88K)
 
 ## Key Insights
-- [To be filled after building the dashboard]
+1. **Revenue Growth:** Sales grew steadily from 2014 ($0.48M) to 2017 ($0.73M), a 52% increase
+2. **Regional Leader:** West region accounts for 31.58% of total sales
+3. **Discount Trap:** Products with discounts above 40% almost always result in negative profit
+4. **Top Category:** Technology leads in sales, followed by Furniture and Office Supplies
+5. **Loss Leaders:** 3D printers and high-end conference tables are the biggest money losers
 
 ## Screenshots
-![Dashboard Overview](screenshots/overview.png)
+![Sales Overview](screenshots/overview.png)
 ![Profitability Analysis](screenshots/profitability.png)
 
 ## How to Open
