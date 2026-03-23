@@ -14,6 +14,12 @@ __pycache__/
 # IDE
 .idea/
 
+# SQLite
+*.db
+
+# Claude Code
+.claude/
+
 # OS
 .DS_Store
 Thumbs.db

@@ -16,6 +16,11 @@ Built an executive sales dashboard analyzing revenue, profit margins, and region
 **Skills:** Data cleaning, multi-table joins, exploratory analysis, data visualization
 Analyzed 100K+ orders from a Brazilian e-commerce platform to uncover customer satisfaction drivers and delivery performance bottlenecks.
 
+### 3. [SaaS Subscription & Retention Analysis](03-sql-saas-retention/)
+**Tools:** SQL (PostgreSQL), Python (data generation)
+**Skills:** Window functions, CTEs, cohort analysis, churn prediction, business storytelling
+Analyzed 2,000 SaaS customers to identify churn patterns, build cohort retention matrices, and surface early warning signals for the Customer Success team.
+
 ## Certifications
 - IBM Data Analyst Professional Certificate (Coursera)
 - HackerRank SQL (Intermediate)
