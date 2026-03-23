@@ -27,54 +27,31 @@ Simulated dataset (generated via Python) covering 12 months of activity for ~2,0
 
 ### 1. MRR Trend — Revenue is growing but decelerating
 
-| Month | New MRR | Upgrade MRR | Cumulative MRR |
-|-------|---------|-------------|----------------|
-| 2025-01 | $13,226 | $0 | $13,226 |
-| 2025-06 | $14,853 | $1,270 | $81,065 |
-| 2025-10 | $13,831 | $3,336 | $141,865 |
-| 2025-12 | $295 | $7,070 | $166,786 |
+![MRR Trend](screenshots/mrr_trend.png)
 
 Upgrade revenue is growing (from $0 → $7K/mo), but new sign-up MRR slowed sharply in December.
 
 ### 2. Churn Rate — Basic plan is the biggest problem
 
-| Plan | Customers | Churned | Churn Rate |
-|------|-----------|---------|------------|
-| Basic | 1,015 | 159 | **15.7%** |
-| Pro | 690 | 42 | 6.1% |
-| Enterprise | 295 | 9 | 3.1% |
+![Churn by Plan](screenshots/churn_by_plan.png)
 
 Basic plan churn (15.7%) is **5× higher** than Enterprise (3.1%).
 
 ### 3. Time-to-Churn — Most leave within 90 days
 
-| Bucket | Customers | Avg Days | % of Churned |
-|--------|-----------|----------|-------------|
-| 0-30 days | 3 | 30 | 1.4% |
-| 31-90 days | 107 | 53 | **51.0%** |
-| 91-180 days | 67 | 130 | 31.9% |
-| 180+ days | 33 | 224 | 15.7% |
+![Time to Churn](screenshots/time_to_churn.png)
 
 Over half of all churn happens in the first 90 days — the onboarding window is critical.
 
 ### 4. Cohort Retention Matrix
 
-| Cohort | Size | M0 | M1 | M2 | M3 | M4 | M5 |
-|--------|------|----|----|----|----|----|-----|
-| 2025-01 | 194 | 95.9% | 100% | 99.0% | 98.5% | 97.9% | 96.4% |
-| 2025-04 | 151 | 92.7% | 99.3% | 99.3% | 96.0% | 95.4% | 94.0% |
-| 2025-07 | 168 | 90.5% | 99.4% | 97.0% | 96.4% | 92.9% | 90.5% |
-| 2025-10 | 209 | 93.8% | 100% | 95.7% | — | — | — |
+![Cohort Retention](screenshots/cohort_retention.png)
 
 Retention drops noticeably at **M4–M5** across all cohorts (~97% → ~91%).
 
 ### 5. First-Week Engagement vs Churn
 
-| Engagement Level | Customers | Churned | Churn Rate |
-|-----------------|-----------|---------|------------|
-| No activity | 166 | 19 | **11.4%** |
-| Low activity | 215 | 19 | 8.8% |
-| Engaged | 1,619 | 172 | 10.6% |
+![Engagement vs Churn](screenshots/engagement_vs_churn.png)
 
 Users with zero first-week activity show the highest churn rate.
 
